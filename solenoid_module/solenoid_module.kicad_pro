@@ -389,6 +389,12 @@
           "label": "Ullmanna Part Number",
           "name": "Ullmanna Part Number",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser number",
+          "name": "Mouser number",
+          "show": false
         }
       ],
       "filter_string": "",

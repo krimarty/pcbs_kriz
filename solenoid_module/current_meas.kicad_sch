@@ -278,7 +278,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -15.24 90)
 					(length 2.54)
 					(name "GND"
@@ -314,7 +314,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 8.89 -5.08 180)
 					(length 2.54)
 					(name "NC"
@@ -348,12 +348,6 @@
 		(color 0 0 0 0)
 		(uuid "42991912-98cb-421a-9025-a182fa52a715")
 	)
-	(junction
-		(at 40.64 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9dd1af8-655b-4827-aca1-64e16ff75bb5")
-	)
 	(wire
 		(pts
 			(xy 63.5 44.45) (xy 63.5 54.61)
@@ -383,16 +377,6 @@
 			(type default)
 		)
 		(uuid "34bf8c63-21ea-4969-9039-82c501532093")
-	)
-	(wire
-		(pts
-			(xy 40.64 87.63) (xy 52.07 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fc7ffcf-6f04-4863-aab5-4daaeb477185")
 	)
 	(wire
 		(pts
@@ -476,7 +460,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 81.28) (xy 40.64 87.63)
+			(xy 40.64 81.28) (xy 40.64 92.71)
 		)
 		(stroke
 			(width 0)
@@ -503,16 +487,6 @@
 			(type default)
 		)
 		(uuid "c3e8f13d-c39a-4be2-8dd8-a9aa87c8b9c4")
-	)
-	(wire
-		(pts
-			(xy 40.64 87.63) (xy 40.64 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faf7c16e-e56d-4e62-b0f0-3cf33b77ed97")
 	)
 	(global_label "GND"
 		(shape input)
@@ -579,17 +553,6 @@
 			(justify right)
 		)
 		(uuid "670c6300-4ab0-4ab8-821c-660d06a34915")
-	)
-	(hierarchical_label "I_shunt_low"
-		(shape output)
-		(at 52.07 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99c2b40b-3125-40a8-96e3-f48eca28f38d")
 	)
 	(hierarchical_label "I_Hall"
 		(shape output)
