@@ -1,6 +1,6 @@
 **/*-backups/
 **/build/
-**/fp-info-cache/
+**/fp-info-cache
 **/pico-sdk/
 **/.vscode/
 **/.DS_Store
