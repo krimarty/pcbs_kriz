@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "custom_modules")(type "KiCad")(uri "${KIPRJMOD}/custom_modules.pretty")(options "")(descr ""))
+  (lib (name "solenoid_module")(type "KiCad")(uri "${KIPRJMOD}/libs/custom_modules/solenoid_module.pretty")(options "")(descr ""))
+  (lib (name "MCU_module")(type "KiCad")(uri "${KIPRJMOD}/libs/custom_modules/MCU_module.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/libs/custom_modules/Library.pretty")(options "")(descr ""))
+)
