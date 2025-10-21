@@ -72,9 +72,9 @@
 		(end -17.794536 -8.101852)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.Fab")
 		(uuid "1b827bec-c5d0-4778-9230-d2159f2545ba")
 	)
 	(fp_line
@@ -82,9 +82,9 @@
 		(end 15.70562 -10.077184)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.Fab")
 		(uuid "49b71b97-6588-47d4-9832-21f19e392eca")
 	)
 	(fp_line
@@ -92,9 +92,9 @@
 		(end -15.794536 11.672816)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.Fab")
 		(uuid "8d2ae1ed-47dc-4976-bf66-04995319a088")
 	)
 	(fp_line
@@ -102,9 +102,9 @@
 		(end 17.705776 9.672972)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.Fab")
 		(uuid "4c2a84bc-4ca0-47eb-beb2-d68309dcbf00")
 	)
 	(fp_arc
@@ -113,9 +113,9 @@
 		(end -15.794536 -10.077028)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.Fab")
 		(uuid "975442a5-fd78-4ebf-a497-19cc8f436990")
 	)
 	(fp_arc
@@ -124,9 +124,9 @@
 		(end -17.794536 9.672816)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.Fab")
 		(uuid "f8d63ffa-4927-427d-b6b7-05c25a7fa91f")
 	)
 	(fp_arc
@@ -135,9 +135,9 @@
 		(end 17.705776 -8.077028)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.Fab")
 		(uuid "6dcd779a-31ec-4ed3-9ae2-d09c96b07182")
 	)
 	(fp_arc
@@ -146,9 +146,9 @@
 		(end 15.70562 11.673128)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.Fab")
 		(uuid "728a35f5-17e5-4445-b73b-e0221dec52d1")
 	)
 	(fp_text user "Solenoid module"

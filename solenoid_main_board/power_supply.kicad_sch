@@ -1377,12 +1377,6 @@
 		(uuid "61734fdb-c521-4704-892c-cd7ed8681a7b")
 	)
 	(junction
-		(at 62.23 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67cb8db2-a0cd-41cc-a771-0ed2ede2042d")
-	)
-	(junction
 		(at 74.93 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1419,6 +1413,16 @@
 			(type default)
 		)
 		(uuid "0ee47c89-909a-4d3e-9e4f-065a948cd279")
+	)
+	(wire
+		(pts
+			(xy 69.85 69.85) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11256b18-3109-4cca-be79-c68ac7678a7b")
 	)
 	(wire
 		(pts
@@ -1582,16 +1586,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 49.53) (xy 62.23 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a799e1-1413-4cfa-86b4-a3ef9b2dc331")
-	)
-	(wire
-		(pts
 			(xy 118.11 66.04) (xy 118.11 69.85)
 		)
 		(stroke
@@ -1672,7 +1666,7 @@
 	)
 	(hierarchical_label "+VDD_OUT"
 		(shape output)
-		(at 62.23 52.07 270)
+		(at 69.85 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
