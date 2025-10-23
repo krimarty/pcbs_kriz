@@ -4852,6 +4852,19 @@
 			)
 		)
 	)
+	(gr_text "Solenoid_testbench_module\nv1.0.0"
+		(at 150.05 88.75 0)
+		(layer "B.SilkS")
+		(uuid "b191c247-e4b9-49cd-97e8-054ae1341204")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 52.005 87.9675)
 		(end 52.005 79.4375)
