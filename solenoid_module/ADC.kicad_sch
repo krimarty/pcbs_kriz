@@ -1019,6 +1019,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL "
+			(at 85.09 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c0b00771-73c3-492f-b8ee-60f742ab8c6b")
 		)

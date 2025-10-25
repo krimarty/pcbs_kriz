@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "solenoid_module")(type "KiCad")(uri "${KIPRJMOD}/libs/custom_modules/solenoid_module.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_module")(type "KiCad")(uri "${KIPRJMOD}/libs/custom_modules/MCU_module.kicad_sym")(options "")(descr ""))
+  (lib (name "control_panel_module")(type "KiCad")(uri "${KIPRJMOD}/libs/custom_modules/control_panel_module.kicad_sym")(options "")(descr ""))
+)

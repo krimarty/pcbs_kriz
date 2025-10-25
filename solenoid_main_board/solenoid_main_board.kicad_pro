@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -188,10 +188,8 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
         0.4,
-        0.6,
-        2.0
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -468,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "solenoid_module.kicad_pro",
+    "filename": "solenoid_main_board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -543,31 +541,31 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -580,27 +578,15 @@
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer Part Number",
-          "name": "Manufacturer Part Number",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Mouser Part Number",
           "name": "Mouser Part Number",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser number",
+          "name": "Mouser number",
+          "show": false
         },
         {
           "group_by": false,
@@ -610,8 +596,20 @@
         },
         {
           "group_by": false,
-          "label": "Mouser number",
-          "name": "Mouser number",
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
           "show": false
         }
       ],
@@ -664,20 +662,12 @@
   },
   "sheets": [
     [
-      "b7f24f9f-04e9-4f9d-9a73-f222f75554b4",
+      "36cfafc3-38d2-47d2-89b9-fc13b83293a5",
       "Root"
     ],
     [
-      "ec654893-b8af-4349-9b79-d91ad55322cd",
-      "Current measure"
-    ],
-    [
-      "9a42e3db-ad90-43b0-8849-9fbdea6f2580",
-      "Voltage divider"
-    ],
-    [
-      "357714fe-9dd7-44fd-a978-2dc509f551c4",
-      "ADC"
+      "7e116a19-b616-439a-b941-ec74c137ae96",
+      "power_supply"
     ]
   ],
   "text_variables": {}
