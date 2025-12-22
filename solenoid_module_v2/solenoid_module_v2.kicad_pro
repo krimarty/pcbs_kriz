@@ -20,9 +20,9 @@
           "arrow_length": 1270000,
           "extension_offset": 500000,
           "keep_text_aligned": true,
-          "suppress_zeroes": false,
+          "suppress_zeroes": true,
           "text_position": 0,
-          "units_format": 1
+          "units_format": 0
         },
         "fab_line_width": 0.1,
         "fab_text_italic": false,
@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -80,8 +80,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_near_hole": "error",
-        "hole_to_hole": "error",
+        "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -189,7 +188,10 @@
       ],
       "track_widths": [
         0.0,
-        0.4
+        0.2,
+        0.4,
+        0.6,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -420,7 +422,6 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
-      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -467,7 +468,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "control_panel_module_comm.kicad_pro",
+    "filename": "solenoid_module_v2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -514,7 +515,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "..\\..\\..\\..\\..\\..\\Dokumenty\\Plocha\\control_panel_module_comm.csv",
+    "bom_export_filename": "..\\..\\..\\..\\..\\..\\Dokumenty\\Plocha\\solenoid_module.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -537,26 +538,14 @@
         },
         {
           "group_by": false,
-          "label": "Value",
-          "name": "Value",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "label": "Value",
+          "name": "Value",
           "show": true
         },
         {
@@ -567,15 +556,39 @@
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": false
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         },
         {
           "group_by": true,
@@ -585,8 +598,8 @@
         },
         {
           "group_by": false,
-          "label": "Mouser number",
-          "name": "Mouser number",
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
           "show": true
         },
         {
@@ -594,11 +607,17 @@
           "label": "Ullmanna Part Number",
           "name": "Ullmanna Part Number",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser number",
+          "name": "Mouser number",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -645,24 +664,12 @@
   },
   "sheets": [
     [
-      "01f48663-51d7-48f4-9aa9-9279c565a6cb",
+      "b7f24f9f-04e9-4f9d-9a73-f222f75554b4",
       "Root"
     ],
     [
-      "3435a71d-92c9-4e5b-8c73-f52216b902ae",
-      "SSD1306"
-    ],
-    [
-      "f1f09a98-6452-4cc9-9ea6-171d66ed561a",
-      "Buttons"
-    ],
-    [
-      "da3882a4-de83-4b7b-a911-0ab86609a0d0",
-      "Indicators"
-    ],
-    [
-      "f942d683-451a-4d70-a49a-5deb3080c513",
-      "Communication"
+      "ec654893-b8af-4349-9b79-d91ad55322cd",
+      "Current measure"
     ]
   ],
   "text_variables": {}
