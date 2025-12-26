@@ -2672,7 +2672,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x04"
+		(property "Value" "1x4 5.08"
 			(at 58.42 73.66 0)
 			(effects
 				(font
@@ -2680,7 +2680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01604HBWC_1x04_P5.08mm_Horizontal"
 			(at 58.42 82.55 0)
 			(effects
 				(font
@@ -2699,6 +2699,24 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TB0012-508-02GR"
+			(at 58.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "179-TB0012-508-02GR"
 			(at 58.42 82.55 0)
 			(effects
 				(font
